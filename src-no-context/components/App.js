@@ -94,7 +94,7 @@ function reducer(state, action) {
 }
 
 // export const API_URL = `http://localhost:8000`; // for local development
-export const API_URL = `https://react-quizapp-db.vercel.app`; // for production deployment
+const API_URL = `https://react-quizapp-db.vercel.app`; // for production deployment
 
 export default function App() {
   const [

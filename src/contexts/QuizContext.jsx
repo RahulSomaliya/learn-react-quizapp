@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useReducer } from 'react';
-import { API_URL } from '../../src-no-context/components/App';
+// import { API_URL } from '../../src-no-context/components/App';
+const API_URL = `https://react-quizapp-db.vercel.app`; // for production deployment
 
 const QuizContext = createContext();
 
